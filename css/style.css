@@ -1,0 +1,211 @@
+body {
+  background-color: #f6f6f6;
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-top-style: dotted;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-width: 1em;
+  width: 7%;
+  border-color: #bad7df;
+  padding: 30px;
+}
+
+p {
+  display: block;
+  border: 30px;
+  line-height: 200%;
+  color: #40514E;
+}
+
+h1 {
+  margin-top: 0;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 7.5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: montserrat, sans-serif;
+  font-size: 2.5rem;
+}
+
+/*****************class selector********************/
+.myButton {
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:13px;
+	border:3px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Pacifico', cursive;
+	font-size:28px;
+	font-weight:bold;
+	font-style:italic;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0 0 0 #5b6178;
+  margin-bottom: 5px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 10px 0 0 0;
+}
+
+.insta {
+  margin: auto 10px auto 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.insta:hover {
+  height: 35px;
+  width: 35px;
+}
+
+.what {
+  margin: auto 10px auto 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.what:hover {
+  height: 35px;
+  width: 35px;
+}
+
+.face {
+  margin: auto 10px auto 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.face:hover {
+  height: 35px;
+  width: 35px;
+}
+
+.touch {
+  font-size: 3.5rem;
+}
+
+.intro-skill {
+  font-family: 'Piedra', cursive;
+  font-size: 3.5rem;
+}
+
+.intro1 {
+  font-size: 4.2rem;
+}
+
+.intro2 {
+  font-size: 1.5rem;
+  margin: 0 auto 100px auto;
+}
+
+.skill-row {
+  /* display: inline; */
+  margin: 50px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.myself {
+  margin-top: 100px;
+  height: 400px;
+  width: 400px;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+  border-image-outset: 30px;
+}
+
+.top {
+  background-color: #cbf1f5;
+  height: 800px;
+}
+
+.web-img {
+  float: right;
+  border-radius: 50% 20% / 10% 40%;
+  ;
+  /* height: 200px; */
+  width: 30%;
+  margin-right: 30px;
+}
+
+.hack-img {
+  float: left;
+  border-radius: 50% 20% / 10% 40%;
+  ;
+  /* height: 200px; */
+  width: 30%;
+  margin-right: 30px;
+}
+
+.fst-para {
+  font-family: 'Metal Mania', cursive;
+  position: absolute;
+  font-size: 3rem;
+  top: 290px;
+  left: 630px;
+  color: #66BFBF;
+  font-weight: normal;
+  padding: 20px;
+}
+
+.fst-h1 {
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+
+.cloud-img-1 {
+  position: absolute;
+  height: 80px;
+  width: auto;
+  top: 80px;
+  left: 970px;
+}
+
+.cloud-img-2 {
+  position: absolute;
+  bottom: 215px;
+  left: 220px;
+  height: 100px;
+  width: auto;
+}
+
+.mountain-img {
+  position: absolute;
+  top: 400px;
+  left: 250px;
+  height: 400px;
+  width: 1000px;
+}
